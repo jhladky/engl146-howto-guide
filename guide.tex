@@ -1,0 +1,63 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{tabulary}
+\usepackage{lmodern}
+\renewcommand*\familydefault{\sfdefault}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{titlesec}
+\usepackage{hanging}
+\usepackage{url}
+\newcommand{\sectionbreak}{\clearpage}
+
+\graphicspath{ {img/} }
+
+\begin{document}
+
+\begin{titlepage}
+  \begin{center}
+    \vspace*{1cm}
+    \huge\textbf{How to Tie a Penny Knot}
+
+    \vspace{1.5cm}
+
+    \begin{figure}[ht!]
+      \centering
+      \includegraphics[width=1\textwidth]{title_pic.png}
+      \label{fig:title_pic}
+    \end{figure}
+
+    \vfill
+    \large{
+      Michael Cailotto\\
+      Jacob Hladky\\
+      Fiona Kelly\\
+      Heriberto Rodriguez\\
+      \bigskip
+      California Polytechnic State University\\
+      San Luis Obispo, CA\\
+      \today
+    }
+
+  \end{center}
+\end{titlepage}
+
+\pagenumbering{roman}
+
+\tableofcontents
+
+\listoffigures
+\begingroup
+\let\clearpage\relax
+\listoftables
+\endgroup
+\clearpage
+
+\pagenumbering{arabic}
+
+\section{Introduction}
+
+
+
+\end{document}
